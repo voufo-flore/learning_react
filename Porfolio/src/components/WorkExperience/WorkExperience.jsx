@@ -2,6 +2,7 @@ import React from 'react'
 import './WorkExperience.css'
 import { WORK_EXPERIENCE } from '../Utils/data';
 import ExperienceCard from '../ExperienceCard/ExperienceCard';
+import slid
 
 const WorkExperience  = () => {
   
