@@ -3,13 +3,14 @@ import "./ContactInfoCard.css";
 
 const ContactInfoCard = ({ iconUrl, text}) => {
     return (
-        <section className="ContactInfoCard-container">
-            <h5>ContactInfoCard</h5>
-            <div className="ContactInfoCard-content">
-               
-            </div>
+        <div className="contact-details-card">
+           <div className="icon"> 
+            <img src="" alt={text} />
+           </div>
+      
+      <p>{text}</p>
 
-        </section>
+        </div>
     
     )
 }
