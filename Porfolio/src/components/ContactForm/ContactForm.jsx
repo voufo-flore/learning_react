@@ -6,11 +6,11 @@ const ContactForm = () => {
     <div className='contact-form-content'>
         <form>
             <div className='name-container'>
-                <input type="text" name='firstname' placeholder='VOUFO'/>
-                <input type="text" name='lastname' placeholder='FLORE'/>
+                <input type="text" name='firstname' placeholder='firstname'/>
+                <input type="text" name='lastname' placeholder='lastname'/>
             </div>
-            <input type="text"  name='email' placeholder='florevoufo@gmail.com'/>
-            <input type="text"  name='contact' placeholder='+237654897023'/>
+            <input type="text"  name='email' placeholder='email'/>
+            <input type="text"  name='contact' placeholder='contact'/>
             <textarea name="text" type="Message" placeholder='Message' rows={3}></textarea>
             <button>SEND</button>
         </form>

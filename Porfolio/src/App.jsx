@@ -4,7 +4,7 @@ import Navbar from "./components/Navbar/Navbar";
 import Hero from "./components/Hero/Hero";
 import Skills from './components/Skills/skills';
 import WorkExperience from './components/WorkExperience/WorkExperience';
-import ContactMe from './components/ContactMe/ContactMe'
+import ContactMe from "./components/ContactMe/ContactMe"
 
 
 const App = () => {

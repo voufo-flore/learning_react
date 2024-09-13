@@ -9,7 +9,7 @@ const ContactInfoCard = ({ text}) => {
             <img src={iconUrl} alt={text} />
            </div>
       
-      <p>{text}</p>
+      <p>{}</p>
 
         </div>
     
