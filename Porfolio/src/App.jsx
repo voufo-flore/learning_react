@@ -5,6 +5,8 @@ import Hero from "./components/Hero/Hero";
 import Skills from './components/Skills/skills';
 import WorkExperience from './components/WorkExperience/WorkExperience';
 import ContactMe from "./components/ContactMe/ContactMe"
+import ContactForm from './components/ContactForm/ContactForm';
+import ContactInfoCard from './components/ContactInfoCard/ContactInfoCard';
 
 
 const App = () => {
@@ -17,6 +19,7 @@ const App = () => {
     <Skills/>
     <WorkExperience />
     <ContactMe />
+    <ContactInfoCard/>
       </div>
     </>
   );

@@ -2,19 +2,19 @@ import React from "react";
 import "./ContactInfoCard.css";
 
 
-const ContactInfoCard = ({ text}) => {
+const ContactInfoCard = ({ iconUrl, text }) => {
     return (
         <div className="contact-details-card">
            <div className="icon"> 
             <img src={iconUrl} alt={text} />
            </div>
       
-      <p>{}</p>
+      <p>{text}</p>
 
         </div>
     
-    )
-}
+    );
+};
 
 
 
