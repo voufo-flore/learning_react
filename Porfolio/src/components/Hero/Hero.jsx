@@ -5,7 +5,8 @@ const Hero = () => {
   return (
     <section className="hero-container">
       <div className="hero-content">
-        <h2>Building Digital Experience that inspires</h2>
+        <h2>Building Digital Experience that inspires</h2><br></br>
+        <big><i><h1>Hello i'm VOUFO FLORE</h1></i></big> 
         <p>Passionate Frontend Developer | Transforming Ideas Into Seamless and Visually Stunning Web Solutions</p>
       </div>
 

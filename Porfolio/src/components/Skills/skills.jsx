@@ -4,7 +4,6 @@ import { SKILLS } from "../Utils/data.jsx";
 import SkillCard from "../SkillCard/SkillCard.jsx";
 import SkillsInfoCard from "../SkillsInfoCard/SkillsInfoCard.jsx";
 
-
 const Skills = () => {
   const [selectedSkill, setSelectedSkill] = useState(SKILLS[0]);
 

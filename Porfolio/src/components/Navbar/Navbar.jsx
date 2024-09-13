@@ -11,7 +11,7 @@ const Navbar = () => {
  
   return (
     <header>
-    {/* <MobileNav is openMenu={openMenu} toggleMenu={toggleMenu} /> */}
+    <MobileNav is openMenu={openMenu} toggleMenu={toggleMenu} /> 
     <nav className="nav-wrapper">
       <div className="nav-content">
         <p className="logo">Time to program</p>
@@ -34,7 +34,6 @@ const Navbar = () => {
            Hire me
           </button>
         </ul>
-
 
         <div className="menu-btn" onClick={toggleMenu}>
           {Array.from({length: 3}).map((_, index) => (

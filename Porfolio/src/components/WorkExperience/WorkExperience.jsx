@@ -1,15 +1,16 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import './WorkExperience.css'
 import { WORK_EXPERIENCE } from '../Utils/data';
 import ExperienceCard from '../ExperienceCard/ExperienceCard';
 import Slider from 'react-slick';
 
 const WorkExperience  = () => {
+  
   const sliderRef = useRef();
 
   const settings ={
     dots: false,
-    infinite: true,
+    infinite: false,
     speed: 500,
     slideToShow:2,
     slideToScroll: 1,
@@ -38,11 +39,11 @@ const slideLeft = () => {
 
         <div className='experience-content'>
           <div className="arrow-right" onClick={slideRight}>
-            <span class="material-symbols-outlined">chevron_right</span>
+            <span className="material-symbols-outlined"></span>
            </div>
 
-          <div className="arrow-letf" onClick={slideLeft}>
-            <span class="material-symbols-outlined">chevron_left</span>
+          <div className="arrow-left" onClick={slideLeft}>
+            <span class="material-symbols-outlined"></span>
            </div>
 
           <Slider ref={sliderRef} {...settings}>

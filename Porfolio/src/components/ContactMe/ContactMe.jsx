@@ -1,6 +1,8 @@
 import React from "react";
 import "./ContactMe.css";
-import {Email} from "../../index.js"
+import {Email, Github} from "../../index.js"; 
+import ContactInfoCard from "../ContactForm/ContactForm.jsx";
+import ContactForm from "../ContactForm/ContactForm.jsx";
 
 const ContactMe = () => {
     return (
@@ -13,10 +15,12 @@ const ContactMe = () => {
                 text= "florevoufo@google.com"
                 />
                  <ContactInfoCard 
-                iconUrl= {Email}
+                iconUrl= {Github}
                 text= "http://githib.com/Time-to-program"
                 />
-                <div style={{ flex: 1 }}></div>
+                <div style={{ flex: 1 }}>
+                <ContactForm />
+                </div>
             </div>
 
         </section>

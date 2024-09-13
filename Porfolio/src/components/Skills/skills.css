@@ -3,8 +3,8 @@
     position: relative;
 }
 
-.skills-container ::after,
-.skills-container ::before {
+.skills-container::after,
+.skills-container::before {
     content: "";
     width: 28rem;
     height: 28rem;
@@ -14,11 +14,11 @@
     z-index: -1;
     filter: blur(200px);
 }
-.skills-container ::after {
+.skills-container::after {
     top: -3rem;
     bottom: -5rem;
 }
-.skills-container ::before {
+.skills-container::before {
     background: #0e0431 ;
     bottom: 0rem;
     right: 0rem;
@@ -57,7 +57,7 @@
         flex-direction: column-reverse;
         gap: 3rem;
     }
-    .skills
+    .skills,
     .skills-info{
         width: 100%;
     }
