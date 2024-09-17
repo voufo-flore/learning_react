@@ -20,7 +20,7 @@ header {
     right:  -50%;
     width: 50%;
     height: 100vh;
-    background: red;
+    background: rgb(18, 73, 155);
     z-index: 100;
     display: none;
     transition: 0.25s ease-in-out;

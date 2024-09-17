@@ -66,8 +66,8 @@ export const WORK_EXPERIENCE = [
         ],
     },
     {
-        title: "Frontend Intern at Web Studio",  
-        date: "January 2024 - May 2024",  
+        title: "Frontend Intern at Tech Innovation Center",  
+        date: "august 2024 - october 2024",  
         responsibilities: [
             "Assisted in the development of a new e-commerce platform, contributing to the implementation of frontend features using React.js.",
             "Conducted performance optimization tasks, resulting in a 15% improvement in page load times.",

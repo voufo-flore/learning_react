@@ -14,7 +14,7 @@ const Navbar = () => {
     <MobileNav is openMenu={openMenu} toggleMenu={toggleMenu} /> 
     <nav className="nav-wrapper">
       <div className="nav-content">
-        <p className="logo">Time to program</p>
+        <big><i><p className="logo">Time to program</p></i></big>
 
         <ul className="desktop-nav">
           <li>
